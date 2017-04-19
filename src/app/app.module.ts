@@ -9,13 +9,17 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import {RouterModule} from '@angular/router';
 import {routes} from './app.routes';
+import { EducationComponent } from './education/education.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+    EducationComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
