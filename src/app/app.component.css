@@ -1,0 +1,8 @@
+.menu {
+  height: 100vh;
+}
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
