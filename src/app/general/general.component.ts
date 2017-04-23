@@ -13,7 +13,7 @@ import {trigger, transition, animate, style} from '@angular/animations';
   styleUrls: ['./general.component.css'],
   animations: [trigger('componentStatus', [
 
-  transition('* => *', [style({opacity: 0}), animate('2000ms ease-in')])
+  transition('* => *', [style({opacity: 0}), animate('1000ms ease-in')])
   ]
   )]
 })
