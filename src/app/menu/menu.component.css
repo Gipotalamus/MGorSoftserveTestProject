@@ -1,0 +1,10 @@
+li {
+  font-size: 1.3em;
+}
+
+@media (max-width: 600px) {
+  li {
+    float: left;
+  }
+
+}

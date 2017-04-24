@@ -1,0 +1,21 @@
+.menu {
+  height: 100vh;
+}
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .menu {
+    height: auto;
+    display: block;
+    clear: both;
+    width: 100%;
+  }
+  .content {
+    display: block;
+    width: 100%;
+  }
+}
+
+
