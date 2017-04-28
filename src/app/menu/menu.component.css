@@ -5,6 +5,7 @@ li {
 @media (max-width: 600px) {
   li {
     float: left;
+    font-size: 1em;
   }
 
 }
