@@ -1,5 +1,5 @@
 import {Route} from '@angular/router';
-import {GeneralComponent} from "./general/general.component";
+import {GeneralComponent} from './general/general.component';
 
 export const routes: Route[] = [
   {path: ':direction', component: GeneralComponent},

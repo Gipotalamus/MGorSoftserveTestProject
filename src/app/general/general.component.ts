@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {ActivatedRoute} from "@angular/router";
-import {JsonReaderService} from "../service/json-reader.service";
-import 'rxjs/add/operator/mergeMap'
+import {ActivatedRoute} from '@angular/router';
+import {JsonReaderService} from '../service/json-reader.service';
+import 'rxjs/add/operator/mergeMap';
 import {trigger, transition, animate, style} from '@angular/animations';
 
 
@@ -26,7 +26,7 @@ export class GeneralComponent implements OnInit {
 
   ngOnInit() {
     this.actavatedRoute.params.flatMap(params => {this.componentStatus = params['direction'];
-      return this.jsonReaderService.readData(params['direction'])}).subscribe(data => this.dataText = data);
+      return this.jsonReaderService.readData( params['direction']); }).subscribe(data => this.dataText = data);
   }
 
 }
