@@ -1,10 +1,21 @@
-.menu {
-  height: 100vh;
+.main {
+  background-color: aliceblue;
 }
+.main {
+  height: 100vh;
+  text-align: center;
+}
+
 .vertical-align {
   display: flex;
   align-items: center;
 }
+
+span {
+  position: absolute;
+  bottom: 0;
+}
+
 @media (max-width: 600px) {
   .menu {
     height: auto;

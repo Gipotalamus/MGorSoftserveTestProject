@@ -7,7 +7,7 @@ import { MenuComponent } from './menu/menu.component';
 import {RouterModule} from '@angular/router';
 import {routes} from './app.routes';
 import { GeneralComponent } from './general/general.component';
-import {JsonReaderService} from "./service/json-reader.service";
+import {JsonReaderService} from './service/json-reader.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
