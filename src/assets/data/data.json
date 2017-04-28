@@ -1,7 +1,7 @@
 {
-  "general" : "My name is Myron Gorbovyi. I was born on 10-th of May, 1984. \nBy this time I live and work in Dolyna. I am engineer of electronic \nequipment on gas processing plant. Married, have two kids.",
-  "skills" : "Programming languages \nJava (7, 8), JavaScript, TypeScript, HTML, CSS, XML \nFrameworks, technologies \nSpring (Core, Data, Security, REST, AOP), JPA (Hibernate), Servlets/JSP, JSTL, \nThymeleaf, Maven, Apache Tomcat, Angular 2 \nDatabases \nMySQL, MongoDB \nVersion control \nGit \nOS \nWindows, Linux",
-  "education" : "Education\nDolyna Lyceum (1998-2001)\nNational Technical University Of Oil & Gas (2001-2006)\nSoftServe IT Academy (2013)",
-  "contacts" : "How can you find me\nmobile: (099) 533-7099\ne-mail: hectop23@ukr.net\nSkype name: Gipotalamus23 \nLinkedin: https://www.linkedin.com/in/myron-gorboviy-a5690185/",
-  "interests" : "My hobbies\ntracking(mountains), workout, massage, programming, dancing"
+  "general" : "\tMy name is Myron Gorbovyi. I was born on 10-th of May, 1984. \nBy this time I live and work in Dolyna. I am engineer of electronic \nequipment on gas processing plant. Married, have two kids.",
+  "skills" : "Programming languages \n\tJava (7, 8), JavaScript, TypeScript, HTML, CSS, XML \nFrameworks, technologies \n\tSpring (Core, Data, Security, REST, AOP), JPA (Hibernate), Servlets/JSP, JSTL, \nThymeleaf, Maven, Apache Tomcat, Angular 2 \nDatabases \n\tMySQL, MongoDB \nVersion control \n\tGit \nOS \n\tWindows, Linux",
+  "education" : "Education \n\tDolyna Lyceum (1998-2001) \n\tNational Technical University Of Oil & Gas (2001-2006) \n\tSoftServe IT Academy (2013)",
+  "contacts" : "How can you find me \n\tmobile: (099) 533-7099 \n\te-mail: hectop23@ukr.net \n\tSkype name: Gipotalamus23 \n\tLinkedin: https://www.linkedin.com/in/myron-gorboviy-a5690185/",
+  "interests" : "My hobbies \n\ttracking(mountains), workout, massage, programming, dancing"
 }
