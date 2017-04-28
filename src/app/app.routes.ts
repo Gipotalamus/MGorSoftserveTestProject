@@ -3,5 +3,5 @@ import {GeneralComponent} from './general/general.component';
 
 export const routes: Route[] = [
   {path: ':direction', component: GeneralComponent},
-  {path: '', redirectTo: 'general', pathMatch: 'full'}
+  {path: '', redirectTo: 'skills', pathMatch: 'full'}
   ];
