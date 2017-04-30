@@ -27,17 +27,6 @@
   margin: 0 -15px;
 }
 
-@media (max-width: 600px) {
-  .menu {
-    height: auto;
-    display: block;
-    clear: both;
-    width: 100%;
-  }
-  .content {
-    display: block;
-    width: 100%;
-  }
-}
+
 
 

@@ -4,5 +4,5 @@ div {
   border: inherit;
   padding-top: 2%;
   padding-left: 4%;
-  white-space: pre;
+  white-space: pre-wrap;
 }

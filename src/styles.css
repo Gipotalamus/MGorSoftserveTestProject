@@ -1,7 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  background-image: url('assets/images/back1.jpg');
+  background-image: url('assets/images/back.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
+@media (max-width: 1000px) {
+  #carouselExampleControls {
+    display: none;
+  }
+}
+@media (max-width: 765px) {
+  app-menu {
+    margin: 0 auto;
+  }
+  #menu {
+    text-align: center;
+    display: flex !important;
+    flex-direction: row !important;
+    font-size: 0.75em;
+  }
+  .nav-link {
+    display: inline !important;
+  }
+
+}
+
