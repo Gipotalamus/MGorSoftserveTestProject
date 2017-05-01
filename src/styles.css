@@ -1,9 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
 body {
   background-image: url('assets/images/back.jpg');
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 @media (max-width: 1000px) {
   #carouselExampleControls {
@@ -25,4 +25,16 @@ body {
   }
 
 }
-
+@media (max-width: 350px) {
+  .main {
+    font-size: 0.8em;
+  }
+  .header h1  {
+    font-size: 150%;
+  }
+  #menu {
+    display: flex !important;
+    flex-direction: column !important;
+    font-size: 0.75em;
+  }
+}
