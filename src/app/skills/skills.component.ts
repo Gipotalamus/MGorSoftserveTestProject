@@ -1,10 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import {JsonReaderService} from '../service/json-reader.service';
+import {componentStatus} from "../animation";
 
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',
-  styleUrls: ['./skills.component.css']
+  styleUrls: ['./skills.component.css'],
+  animations: [componentStatus],
+  host: {'[@componentStatus]': ''}
 })
 export class SkillsComponent implements OnInit {
 
@@ -12,7 +15,7 @@ export class SkillsComponent implements OnInit {
   frameworks: string[];
   databases: string[];
   vcs: string[];
-  os: string[];
+  git: string;
 
   constructor(private jsonReaderService: JsonReaderService) { }
 
@@ -22,7 +25,7 @@ export class SkillsComponent implements OnInit {
       this.frameworks = data.frameworks;
       this.databases = data.databases;
       this.vcs = data.vcs;
-      this.os = data.os;
+      this.git = data.git;
     });
   }
 

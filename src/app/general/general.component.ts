@@ -1,11 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import {JsonReaderService} from '../service/json-reader.service';
 import 'rxjs/add/operator/mergeMap';
+import {componentStatus} from "../animation";
 
 @Component({
   selector: 'app-general',
   templateUrl: './general.component.html',
-  styleUrls: ['./general.component.css']
+  styleUrls: ['./general.component.css'],
+  animations: [componentStatus],
+  host: {'[@componentStatus]': ''}
 })
 export class GeneralComponent implements OnInit {
 

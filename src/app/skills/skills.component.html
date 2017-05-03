@@ -1,6 +1,46 @@
 <h3 class="text-center">Professional skills</h3>
 <ul>
-  <li *ngFor="let language of languages">
-    {{language}}
+  <li>
+    Languages
+    <div class="sublist">
+      <span  *ngFor="let language of languages; let l = last">
+      {{language}}
+        <span *ngIf="!l">,</span>
+        &nbsp;
+      </span>
+    </div>
+  </li>
+  <li>
+    Languages
+    <div class="sublist">
+      <span  *ngFor="let framework of frameworks; let l = last">
+      {{framework}}
+        <span *ngIf="!l">,</span>
+        &nbsp;
+      </span>
+    </div>
+  </li>
+  <li>
+    Languages
+    <div class="sublist">
+      <span  *ngFor="let database of databases; let l = last">
+      {{database}}
+        <span *ngIf="!l">,</span>
+        &nbsp;
+      </span>
+    </div>
+  </li>
+  <li>
+    Version Control
+    <div class="sublist">
+      <span  *ngFor="let versionCS of vcs; let l = last">
+      {{versionCS}}
+        <span *ngIf="!l">,</span>
+        &nbsp;
+      </span>
+    </div>
   </li>
 </ul>
+<div class="text-center">
+  Sources of projects and examples of code you can view at GitHub &nbsp;<a [href]="git" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+</div>

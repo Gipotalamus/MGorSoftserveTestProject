@@ -8,11 +8,11 @@ import {RouterModule} from '@angular/router';
 import {routes} from './app.routes';
 import { GeneralComponent } from './general/general.component';
 import {JsonReaderService} from './service/json-reader.service';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SkillsComponent } from './skills/skills.component';
 import { EducationComponent } from './education/education.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { InterestsComponent } from './interests/interests.component';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [

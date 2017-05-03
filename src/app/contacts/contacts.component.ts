@@ -1,10 +1,13 @@
 import {Component, OnInit} from '@angular/core';
 import {JsonReaderService} from '../service/json-reader.service';
+import {componentStatus} from "../animation";
 
 @Component({
   selector: 'app-contacts',
   templateUrl: './contacts.component.html',
-  styleUrls: ['./contacts.component.css']
+  styleUrls: ['./contacts.component.css'],
+  animations: [componentStatus],
+  host: {'[@componentStatus]': ''}
 })
 export class ContactsComponent implements OnInit {
 
