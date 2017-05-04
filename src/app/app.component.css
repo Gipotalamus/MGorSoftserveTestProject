@@ -12,11 +12,18 @@
   width: auto;
   height: 300px;
 }
+
 .footer {
   background-color: gray;
   color: white;
   text-align: center;
   margin: 50px -15px 0;
+}
+
+@media (max-width: 1000px) {
+  #carouselExampleControls {
+    display: none;
+  }
 }
 
 @media (max-width: 765px) {
@@ -27,16 +34,9 @@
   }
 }
 
-@media (max-width: 1000px) {
-  #carouselExampleControls {
-    display: none;
-  }
-}
-
-
 @media (max-width: 350px) {
   .main {
-    font-size: 0.8em;
+    font-size: 80%;
   }
   .header h1 {
     font-size: 150%;
