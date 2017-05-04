@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import {JsonReaderService} from '../service/json-reader.service';
 import 'rxjs/add/operator/mergeMap';
-import {componentStatus} from "../animation";
+import {fadeInAnimation} from '../animation';
 
 @Component({
   selector: 'app-general',
   templateUrl: './general.component.html',
   styleUrls: ['./general.component.css'],
-  animations: [componentStatus],
-  host: {'[@componentStatus]': ''}
+  animations: [fadeInAnimation],
+  host: { '[@fadeInAnimation]': '' }
 })
 export class GeneralComponent implements OnInit {
 
@@ -19,5 +19,4 @@ export class GeneralComponent implements OnInit {
   ngOnInit() {
       this.jsonReaderService.readData().subscribe(data => this.generalInfo = data.general.story);
   }
-
 }
