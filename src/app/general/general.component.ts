@@ -1,10 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {JsonReaderService} from '../service/json-reader.service';
-import 'rxjs/add/operator/mergeMap';
 import {fadeInAnimation} from '../animation';
 
 @Component({
-  selector: 'app-general',
   templateUrl: './general.component.html',
   styleUrls: ['./general.component.css'],
   animations: [fadeInAnimation],

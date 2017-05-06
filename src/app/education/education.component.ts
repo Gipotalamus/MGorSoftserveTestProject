@@ -3,7 +3,6 @@ import {JsonReaderService} from '../service/json-reader.service';
 import {fadeInAnimation} from "../animation";
 
 @Component({
-  selector: 'app-education',
   templateUrl: './education.component.html',
   styleUrls: ['./education.component.css'],
   animations: [fadeInAnimation],

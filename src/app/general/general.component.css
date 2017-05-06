@@ -1,8 +1,7 @@
 div {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  background-color: inherit;
-  border: inherit;
   padding-top: 2%;
   padding-left: 4%;
   white-space: pre-wrap;
+  text-indent: 50px;
 }
